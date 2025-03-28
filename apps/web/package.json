@@ -11,18 +11,23 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@mdx-js/react": "^3.1.0",
+    "@next/mdx": "^15.2.4",
     "@repo/ui": "workspace:*",
-    "next": "^15.1.7",
+    "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@mdx-js/loader": "^3.1.0",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@types/node": "^22.13.4",
+    "@types/mdx": "^2.0.13",
+    "@types/node": "^22.13.14",
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
-    "eslint": "^9.20.1",
+    "eslint": "^9.23.0",
+    "sass": "^1.86.0",
     "typescript": "5.7.3"
   }
 }
